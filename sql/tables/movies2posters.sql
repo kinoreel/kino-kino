@@ -1,4 +1,4 @@
-create table kino.movies2ratings
+create table kino.movies2posters
    ( imdb_id varchar(10) not null
    , url varchar(100) not null
    , tstamp date not null  default CURRENT_DATE
