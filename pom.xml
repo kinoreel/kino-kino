@@ -1,0 +1,78 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kino.kino</groupId>
+  <artifactId>kino-kino</artifactId>
+  <version>1</version>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>sql-maven-plugin</artifactId>
+        <version>1.5</version>
+
+        <dependencies>
+          <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901.jdbc4</version>
+          </dependency>
+        </dependencies>
+
+        <configuration>
+          <driver>org.postgresql.Driver</driver>
+          <url>jdbc:postgresql://${SERVER}/${DATABASE}</url>
+          <username>${USERNAME}</username>
+          <password>${PASSWORD}</password>
+        </configuration>
+
+        <executions>
+          <execution>
+            <id>compile-schema</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>execute</goal>
+            </goals>
+            <configuration>
+              <delimiter>;</delimiter>
+              <delimiterType>normal</delimiterType>
+              <autocommit>true</autocommit>
+              <srcFiles>
+                <srcFile>sql/schemas/kino.sql</srcFile>
+              </srcFiles>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>compile-tables</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>execute</goal>
+            </goals>
+            <configuration>
+              <delimiter>;</delimiter>
+              <delimiterType>normal</delimiterType>
+              <autocommit>true</autocommit>
+              <srcFiles>
+                <srcFile>sql/tables/movies.sql</srcFile>
+                <srcFile>sql/tables/company_roles.sql</srcFile>
+                <srcFile>sql/tables/companies.sql</srcFile>
+                <srcFile>sql/tables/movies2companies.sql</srcFile>
+                <srcFile>sql/tables/person_roles.sql</srcFile>
+                <srcFile>sql/tables/persons.sql</srcFile>
+                <srcFile>sql/tables/movies2persons.sql</srcFile>
+                <srcFile>sql/tables/movies2genres.sql</srcFile>
+                <srcFile>sql/tables/movies2keywords.sql</srcFile>
+                <srcFile>sql/tables/movies2numbers.sql</srcFile>
+                <srcFile>sql/tables/movies2posters.sql</srcFile>
+                <srcFile>sql/tables/movies2ratings.sql</srcFile>
+                <srcFile>sql/tables/movies2streams.sql</srcFile>
+                <srcFile>sql/tables/movies2trailers.sql</srcFile>
+              </srcFiles>
+            </configuration>
+          </execution>
+
+      </plugin>
+    </plugins>
+  </build>
+</project>
