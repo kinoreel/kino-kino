@@ -54,11 +54,10 @@
               <delimiterType>normal</delimiterType>
               <autocommit>true</autocommit>
               <srcFiles>
+                <srcFile>sql/tables/country_codes.sql</srcFile>
                 <srcFile>sql/tables/movies.sql</srcFile>
-                <srcFile>sql/tables/company_roles.sql</srcFile>
                 <srcFile>sql/tables/companies.sql</srcFile>
                 <srcFile>sql/tables/movies2companies.sql</srcFile>
-                <srcFile>sql/tables/person_roles.sql</srcFile>
                 <srcFile>sql/tables/persons.sql</srcFile>
                 <srcFile>sql/tables/movies2persons.sql</srcFile>
                 <srcFile>sql/tables/movies2genres.sql</srcFile>
