@@ -87,7 +87,7 @@
               <delimiterType>normal</delimiterType>
               <autocommit>true</autocommit>
               <srcFiles>
-                <srcFile>sql/tables/festivals.sql</srcFile>
+                <srcFile>sql/table_data/festivals.sql</srcFile>
               </srcFiles>
             </configuration>
           </execution>
