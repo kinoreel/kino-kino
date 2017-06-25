@@ -1,0 +1,13 @@
+insert into kino.festivals values ('ev0000631', 'Sundance Film Festival', 'Park City, Utah, USA');
+insert into kino.festivals values ('ev0000091', 'Berlin International Film Festival', 'Berlin, Germany');
+insert into kino.festivals values ('ev0000147', 'Cannes Film Festival','Cannes, France');
+insert into kino.festivals values ('ev0000681', 'Venice Film Festivals', 'Venice, Italy');
+insert into kino.festivals values ('ev0000659', 'Toronto International Film Festival', 'Toronto, Ontario, Canada');
+insert into kino.festivals values ('ev0000220', 'Edinburgh International Film Festival', 'Edinburgh, Scotland');
+insert into kino.festivals values ('ev0000588', 'San Sebastian International Film Festival', 'San Sebastián, Spain');
+insert into kino.festivals values ('ev0000894', 'Tribeca', 'New York, New York, USA');
+insert into kino.festivals values ('ev0000025', 'Amsterdam International Documentary Festival', 'Amsterdam, Netherlands');
+insert into kino.festivals values ('ev0000935', 'Raindance Film Festival', 'London, United Kingdom');
+insert into kino.festivals values ('ev0000123', 'BAFTA Awards', 'London, United Kingdom');
+insert into kino.festivals values ('ev0000003', 'Academy Awards', 'Los Angeles California');
+insert into kino.festivals values ('ev0000331', 'Hong Kong International Film Festival', 'Hong Kong, China');

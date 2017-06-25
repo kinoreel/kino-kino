@@ -62,6 +62,9 @@
                 <srcFile>sql/tables/person_roles.sql</srcFile>
                 <srcFile>sql/tables/persons.sql</srcFile>
                 <srcFile>sql/tables/movies2persons.sql</srcFile>
+                <srcFile>sql/tables/festivals.sql</srcFile>
+                <srcFile>sql/tables/awards.sql</srcFile>
+                <srcFile>sql/tables/movies2awards.sql</srcFile>
                 <srcFile>sql/tables/movies2genres.sql</srcFile>
                 <srcFile>sql/tables/movies2keywords.sql</srcFile>
                 <srcFile>sql/tables/movies2numbers.sql</srcFile>
@@ -69,6 +72,22 @@
                 <srcFile>sql/tables/movies2ratings.sql</srcFile>
                 <srcFile>sql/tables/movies2streams.sql</srcFile>
                 <srcFile>sql/tables/movies2trailers.sql</srcFile>
+              </srcFiles>
+            </configuration>
+          </execution>
+
+          <execution>
+            <id>insert-table-data</id>
+            <phase>compile</phase>
+            <goals>
+              <goal>execute</goal>
+            </goals>
+            <configuration>
+              <delimiter>;</delimiter>
+              <delimiterType>normal</delimiterType>
+              <autocommit>true</autocommit>
+              <srcFiles>
+                <srcFile>sql/tables/festivals.sql</srcFile>
               </srcFiles>
             </configuration>
           </execution>
