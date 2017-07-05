@@ -70,6 +70,7 @@
                 <srcFile>sql/tables/movies2numbers.sql</srcFile>
                 <srcFile>sql/tables/movies2posters.sql</srcFile>
                 <srcFile>sql/tables/movies2ratings.sql</srcFile>
+                <srcFile>sql/tables/movies2stats.sql</srcFile>
                 <srcFile>sql/tables/movies2streams.sql</srcFile>
                 <srcFile>sql/tables/movies2trailers.sql</srcFile>
               </srcFiles>
