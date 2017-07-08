@@ -5,5 +5,5 @@ create table kino.movies2stats
   , imdb_votes real
   , youtube_likes real
   , youtube_dislikes real
-  , PRIMARY KEY imdb_id
+  , PRIMARY KEY (imdb_id)
   );

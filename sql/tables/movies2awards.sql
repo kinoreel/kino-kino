@@ -7,5 +7,5 @@ create table kino.movies2awards
    , tstamp date not null
    , FOREIGN KEY (imdb_id) references kino.movies(imdb_id)
    , FOREIGN KEY (imdb_event_id, award) references kino.awards(imdb_event_id, award)
-   , UNIQUE (imdb_id, award, year, position)
+   , UNIQUE (imdb_id, award, year)
 );
