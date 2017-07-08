@@ -3,4 +3,4 @@ create table kino.awards
    , award varchar(10) not null
    , tstamp date not null
    , PRIMARY KEY (imdb_event_id, award)
-);
+    );
