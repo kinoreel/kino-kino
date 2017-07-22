@@ -55,6 +55,7 @@
               <autocommit>true</autocommit>
               <srcFiles>
                 <srcFile>sql/tables/country_codes.sql</srcFile>
+                <srcFile>sql/tables/languages.sql</srcFile>
                 <srcFile>sql/tables/movies.sql</srcFile>
                 <srcFile>sql/tables/company_roles.sql</srcFile>
                 <srcFile>sql/tables/companies.sql</srcFile>

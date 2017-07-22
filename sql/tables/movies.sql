@@ -7,4 +7,5 @@ create table kino.movies
     , orig_language varchar(1000) not null
     , tstamp date not null  default CURRENT_DATE
     , PRIMARY KEY (imdb_id)
+    , FOREIGN KEY (orig_language) references kino.languages(language)
 );
