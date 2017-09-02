@@ -5,7 +5,7 @@ create table kino.movies2awards
    , position varchar(1) check (position in ('N', 'W'))
    , year date not null
    , tstamp date not null
+   , PRIMARY KEY (imdb_id, award, year)
    , FOREIGN KEY (imdb_id) references kino.movies(imdb_id)
    , FOREIGN KEY (imdb_event_id, award) references kino.awards(imdb_event_id, award)
-   , UNIQUE (imdb_id, award, year)
-);
+   );

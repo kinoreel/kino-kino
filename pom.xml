@@ -55,6 +55,7 @@
               <autocommit>true</autocommit>
               <srcFiles>
                 <srcFile>sql/tables/country_codes.sql</srcFile>
+                <srcFile>sql/tables/languages.sql</srcFile>
                 <srcFile>sql/tables/movies.sql</srcFile>
                 <srcFile>sql/tables/company_roles.sql</srcFile>
                 <srcFile>sql/tables/companies.sql</srcFile>
@@ -65,6 +66,7 @@
                 <srcFile>sql/tables/festivals.sql</srcFile>
                 <srcFile>sql/tables/awards.sql</srcFile>
                 <srcFile>sql/tables/movies2awards.sql</srcFile>
+                <srcFile>sql/tables/genres.sql</srcFile>
                 <srcFile>sql/tables/movies2genres.sql</srcFile>
                 <srcFile>sql/tables/movies2keywords.sql</srcFile>
                 <srcFile>sql/tables/movies2numbers.sql</srcFile>
