@@ -3,6 +3,6 @@ create table kino.movies2trailers
    , url varchar(400)
    , tstamp date default current_date
    , PRIMARY KEY (imdb_id, url)
-   , FOREIGN KEY (imdb_id) references kino.movies(imdb_id)
+   , FOREIGN KEY (imdb_id) references kino.movies(imdb_id) on delete cascade
    );
               
