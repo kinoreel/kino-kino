@@ -4,5 +4,5 @@ create table kino.movies2numbers
    , value real not null
    , tstamp date not null default CURRENT_DATE
    , PRIMARY KEY (imdb_id, type)
-   , FOREIGN KEY (imdb_id) references kino.movies(imdb_id)
+   , FOREIGN KEY (imdb_id) references kino.movies(imdb_id) on delete cascade
 );

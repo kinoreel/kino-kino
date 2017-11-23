@@ -4,5 +4,5 @@ create table kino.movies2ratings
    , rating varchar(100) not null
    , tstamp date not null default CURRENT_DATE
    , PRIMARY KEY (imdb_id, source)
-   , FOREIGN KEY (imdb_id) references kino.movies(imdb_id)
+   , FOREIGN KEY (imdb_id) references kino.movies(imdb_id) on delete cascade
 );

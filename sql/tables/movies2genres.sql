@@ -3,7 +3,7 @@ create table kino.movies2genres
    , genre varchar(250) not null
    , tstamp date not null default CURRENT_DATE
    , PRIMARY KEY (imdb_id, genre)
-   , FOREIGN KEY (imdb_id) references kino.movies(imdb_id)
+   , FOREIGN KEY (imdb_id) references kino.movies(imdb_id) on delete cascade
    , FOREIGN KEY (genre) references kino.genres(genre)
    )
 
