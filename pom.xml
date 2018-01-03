@@ -64,7 +64,7 @@
                 <srcFile>sql/tables/person_roles.sql</srcFile>
                 <srcFile>sql/tables/persons.sql</srcFile>
                 <srcFile>sql/tables/movies2persons.sql</srcFile>
-                <srcFile>sql/tables/festivals.sql</srcFile>
+                <srcFile>sql/tables/iso2languages.sql</srcFile>
                 <srcFile>sql/tables/genres.sql</srcFile>
                 <srcFile>sql/tables/movies2genres.sql</srcFile>
                 <srcFile>sql/tables/movies2keywords.sql</srcFile>
@@ -88,7 +88,7 @@
               <delimiterType>normal</delimiterType>
               <autocommit>true</autocommit>
               <srcFiles>
-                <srcFile>sql/table_data/festivals.sql</srcFile>
+                <srcFile>sql/table_data/iso2language.sql</srcFile>
               </srcFiles>
             </configuration>
           </execution>
