@@ -7,6 +7,6 @@ create table kino.movies2streams
    , format varchar(30)
    , purchase_type varchar(30)
    , tstamp date default CURRENT_DATE
-   , UNIQUE (imdb_id, source, format, purchase_type)
+   , PRIMARY KEY (imdb_id, source, format, purchase_type)
    , FOREIGN KEY (imdb_id) references kino.movies(imdb_id) on delete cascade
    );

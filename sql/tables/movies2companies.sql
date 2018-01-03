@@ -5,5 +5,5 @@ create table kino.movies2companies
    , tstamp date not null default CURRENT_DATE
    , FOREIGN KEY (imdb_id) references kino.movies(imdb_id) on delete cascade
    , FOREIGN KEY (company_id) references kino.companies(company_id)
-   , UNIQUE (imdb_id, company_id, role)
+   , PRIMARY KEY (imdb_id, company_id, role)
 );
