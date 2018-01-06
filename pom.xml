@@ -73,6 +73,8 @@
                 <srcFile>sql/tables/movies2ratings.sql</srcFile>
                 <srcFile>sql/tables/movies2streams.sql</srcFile>
                 <srcFile>sql/tables/movies2trailers.sql</srcFile>
+                <srcFile>sql/tables/kino_ratings.sql</srcFile>
+                <srcFile>sql/tables/trailer_quality.sql</srcFile>
               </srcFiles>
             </configuration>
           </execution>
