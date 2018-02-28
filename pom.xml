@@ -63,7 +63,7 @@
                 <srcFile>sql/tables/person_roles.sql</srcFile>
                 <srcFile>sql/tables/persons.sql</srcFile>
                 <srcFile>sql/tables/movies2persons.sql</srcFile>
-                <srcFile>sql/tables/iso2languages.sql</srcFile>
+                <srcFile>sql/tables/iso2language.sql</srcFile>
                 <srcFile>sql/tables/genres.sql</srcFile>
                 <srcFile>sql/tables/movies2genres.sql</srcFile>
                 <srcFile>sql/tables/movies2keywords.sql</srcFile>
