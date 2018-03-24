@@ -7,4 +7,5 @@ create table kino.movies2persons
    , PRIMARY KEY (imdb_id, person_id, role)
    , FOREIGN KEY (imdb_id) references kino.movies(imdb_id) on delete cascade
    , FOREIGN KEY (person_id) references kino.persons(person_id)
+   , FOREIGN KEY (role) references kino.person_roles(role)
 );
